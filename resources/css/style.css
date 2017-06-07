@@ -25,3 +25,12 @@ h4 {
   background-image: url(/Users/miketelesca/Broadway/resources/images/the-flatiron-building.png);
   background-size: cover;
 }
+
+.footer-menu ul {
+  float: left;
+}
+
+.footer-menu p {
+  float: left;
+
+}
