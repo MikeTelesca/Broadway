@@ -6,14 +6,18 @@ html {
 nav {
   text-align: center;
   font-size: 18px;
+  color: white;
+
 }
 
 ul {
   list-style-type: none;
+  display: inline;
 }
 
 li {
   margin: 10px;
+
 }
 
 .homepage {
@@ -21,16 +25,54 @@ li {
   background-size: cover;
 }
 
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
 h4 {
+  font-size: 23px;
+  color: white;
   background-image: url(/Users/miketelesca/Broadway/resources/images/the-flatiron-building.png);
   background-size: cover;
 }
 
-.footer-menu ul {
-  float: left;
+.footer-menu {
+  background: grey;
+  color: white;
+  display: inline-block;
+  width: 100%;
 }
 
-.footer-menu p {
+.footer-menu ul {
+  margin: 0;
+  padding-left: 10px;
+}
+
+.footer-menu ul li {
   float: left;
+  margin: 2px;
+}
+
+.footer-menu span {
+  float: left;
+  padding-top: 10px;
+  font-size: 11px;
+
 
 }
