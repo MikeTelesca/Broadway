@@ -2,3 +2,8 @@ html {
   font-family: Helvetica;
   text-align: center;
 }
+
+nav {
+  text-align: center;
+  font-size: 18px;
+}
